@@ -1,0 +1,110 @@
+body{
+    background-image: url(fon.jpg); 
+    background-color: black;
+    background-attachment: fixed;
+    color: black;
+    background-size: 100%;
+    margin-top: 0px;
+}
+
+
+
+h1 { 
+    color:#000000;
+    font-size: 35px;
+    text-align: center;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+table {
+    margin: 30px; 
+    border: black 1px ridge; 
+    border-collapse: collapse;
+    width:845px;
+    color: black;
+}
+
+td,th,tr {
+    border: #000000 2px outset; 
+    padding: 3px;
+
+}
+
+caption{
+    font: italic bold 16px Arial; 
+    padding: 10px;
+}
+
+thead {
+    background-color: #808080 ; 
+    text-align: center;
+}
+
+tbody {
+    background-color: #708090; 
+       text-align: center;
+}
+
+tr:hover {
+    background-color:#696969; 
+    color: #ffffff;
+}
+
+marquee {
+    color: #FFFAFA;
+    font-size: 157x;
+}
+
+small {
+    color:#696969;
+}
+
+.animal{
+    width:1003px;  
+    min-height: 185px;
+    background-color: #010101; 
+    margin: 0 auto; 
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.pole {
+    width:960px;  
+    min-height: 800px;
+    background-color: #FFFAFA; 
+    margin: 0 auto; 
+    border-style: solid double; 
+    border-width: 6px 7px; 
+    border-color: #010101;
+    padding: 15px;
+    cursor: text;
+}
+
+.podval {
+    height:100px;
+    margin: 10px 0 auto;
+    
+}
+
+.avatar {
+    width: 950px;
+    height: 450px;    
+    background-color: #FFFAFA;
+    color: black;
+    float:left;  
+}
+
+.leftimg {
+    float:left; 
+    margin: 7px 15px 7px 0; 
+   }
+
+.text1 {
+    width: 900px;
+    height: 80px;
+    background-color: #FFFAFA;
+    color: black;
+    float:left;
+}
+
