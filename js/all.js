@@ -14,9 +14,14 @@
             
             var previousColorElement;
             
-            function changeColor(color, imgElement){
+            function changeColor(color, colo, imgElement){
                 // 	Меняем текущий цвет рисования
                 context.strokeStyle = color;
+				
+				var div = document.getElementsByClassName('block1'),
+	 			style = div[0].style;
+	
+				style.backgroundColor = colo;
                 
                 // Меняем стиль элемента <img>, по которому щелкнули
                 imgElement.className = "Selected";
@@ -26,6 +31,7 @@
                     previousColorElement.className = "";
                 
                 previousColorElement = imgElement;
+				
             }
             
             var previousThicknessElement;
@@ -74,12 +80,13 @@
     function clearCanvas() {
 	   context.clearRect(0, 0, canvas.width, canvas.height);
     }
-function funBlock1(){
-	var div = document.getElementsByClassName(block1),
+/*function funBlock1(colo, color){
+	var div = document.getElementsByClassName('block1'),
 	 style = div[0].style;
 	
-	style.backgroundColor = "red";
-};
+	style.backgroundColor = colo;
+	context.strokeStyle = color;
+};*/
 
    function funCol(){
 	   var theInput = document.getElementById("col");
@@ -87,6 +94,12 @@ function funBlock1(){
 	   theInput.addEventListener("input", function() {
 		   context.strokeStyle = theInput.value;
 		   //document.getElementById("rezCol").innerHTML = theInput.value;
+		   
+		   var div = document.getElementsByClassName('block1'),
+			   style = div[0].style;
+		   
+		   style.backgroundColor = theInput.value;
+		   
 	   });
    };
 /*

@@ -48,7 +48,7 @@ body {
 }
 
 .top {
-    height: 50px;  
+    height: 21px;  
     width: 1920px;
     background-color: rgb(239,239,239);
     white-space:nowrap;
@@ -88,33 +88,37 @@ body {
     background-color: black;
     margin: 0 auto;             
     margin-top: 1px;  
+	margin-bottom: 3px;
 }
 
 .block2a {
-    height: 50px;  
+    height: 46px;  
     width: 48px;
     border: 1px solid #a0a0a0;
     background-color: rgb(239,239,239);
     margin: 0 auto;             
-    margin-top: 1px;   
+    margin-top: 3px;   
+	margin-bottom: 3px;
 }
 
 .block3 {
-    height: 247px;  
+    height: 246px;  
     width: 48px;
     border: 1px solid #a0a0a0;
     background-color: rgb(239,239,239);
     margin: 0 auto;             
-    margin-top: 1px;  
+    margin-top: 3px;  
+	margin-bottom: 1px;
 }
 
 .block3a {
-    height: 28px;  
+    height: 30px;  
     width: 48px;
     border: 1px solid #a0a0a0;
     background-color: rgb(239,239,239);
     margin: 0 auto;             
     margin-top: 1px;  
+	margin-bottom: 3px;
 }
 #col {
 	height: 26px;  
@@ -127,7 +131,8 @@ body {
     border: 1px solid #a0a0a0;
     background-color: rgb(239,239,239);
     margin: 0 auto;             
-    margin-top: 1px;  
+    margin-top: 3px;
+	margin-bottom: 3px;
 }
 
 .block5 {
@@ -148,8 +153,8 @@ hr {
 
 img {
     padding: 1px;
-    border: 1px solid #a0a0a0;
-    
+    border: 1px solid #a0a0a0;  
+	margin-left: 0.5px;
 }
 
 img:hover {
